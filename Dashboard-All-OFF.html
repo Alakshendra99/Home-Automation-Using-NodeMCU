@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Dashboard</title>
+    <style>
+      .back {
+        background-color: #297F87
+      }
+
+      .App {
+        font: bold;
+        font-size: 20;
+        font-family: Baskerville, 'Palatino Linotype', Palatino, 'Century Schoolbook L', 'Times New Roman', 'serif'
+      }
+
+      .panel {
+        background-color: #FF6B6B;
+        padding-top: 2%;
+        padding-bottom: 2%
+      }
+
+      .disp {
+        background-color: #FFF;
+        padding-top: 2%;
+        padding-bottom: 10%
+      }
+
+      .dash {
+        padding-top: 7%;
+        padding-bottom: 3%;
+        font-family: 'Gill Sans', 'Gill Sans MT', 'Myriad Pro', 'DejaVu Sans Condensed', Helvetica, Arial, 'sans-serif';
+        font-size: 50;
+        color: white
+      }
+
+      .credit {
+        padding: 1% 1% 1% 1%;
+        background-color: white
+      }
+    </style>
+    <link href='https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU' crossorigin='anonymous'>
+  </head>
+  <body class='back'>
+    <div class='dash'>
+      <h1 align='center'>Dashboard </h2>
+    </div>
+    <div class='row'>
+      <div class='col-lg-3 col-sm-12 col-md-6 panel'>
+        <div class='disp'>
+          <div align='center'>
+            <p class='App'>LED LIGHT</p>
+          </div>
+          <div align='center'>
+            <a href='/LEDOFF'>
+              <button class='cent btn btn-outline-danger'>OFF</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-3 col-sm-12 col-md-6 panel'>
+        <div class='disp'>
+          <div align='center'>
+            <p class='App'>TUBELIGHT</p>
+          </div>
+          <div align='center'>
+            <a href='/TUBEOFF'>
+              <button class='cent btn btn-outline-danger'>OFF</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-3 col-sm-12 col-md-6 panel'>
+        <div class='disp'>
+          <div align='center'>
+            <p class='App'>FAN</p>
+          </div>
+          <div align='center'>
+            <a href='/FANOFF'>
+              <button class='cent btn btn-outline-danger'>OFF</button>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class='col-lg-3 col-sm-12 col-md-6 panel'>
+        <div class='disp'>
+          <div align='center'>
+            <p class='App'>MISC</p>
+          </div>
+          <div align='center'>
+            <a href='/MISCOFF'>
+              <button class='cent btn btn-outline-danger'>OFF</button>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class='credit' align='center'>Made By Alakshendra Singh</div>
+    <hr>
+    <script src='https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js' integrity='sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ' crossorigin='anonymous'></script>
+  </body>
+</html>
